@@ -1,0 +1,21 @@
+<h1>Opportunities</h1>
+
+<p>
+  <b>Name</b><br>
+  <%= @product.name %>
+</p>
+
+<p>
+  <b>Donation Requested</b><br>
+  $<%= @product.price %>
+</p>
+
+<div class="form-actions">
+  <%= link_to 'Back', products_path, :class => 'btn'  %>
+  <% if can? :update, @product %>
+    <%= link_to 'Edit', edit_product_path(@product), :class => 'btn' %>
+  <% end %>
+  <% if can? :update, @product %>
+    <%= link_to 'Delete', product_path(@product), :method => 'delete', :confirm => 'Are you sure?', :class => 'btn btn-danger' %>
+  <% end %>
+</div>

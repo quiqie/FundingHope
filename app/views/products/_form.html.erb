@@ -1,0 +1,15 @@
+<%= simple_form_for @product, :html => { :class => 'form-horizontal' } do |f| %>
+  
+  <fieldset>
+    <legend><%= controller.action_name.capitalize %> Opportunities </lengend>
+    
+    <%= f.input :name %>
+    <%= f.input :price %>
+    <%= f.input :author %>
+    
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to 'Cancel', products_path, :class => 'btn' %>
+  </div>
+  </fieldset>
+<% end %>

@@ -1,0 +1,12 @@
+class Ability
+  include CanCan::Ability
+  
+  belongs_to :user
+  def initialize(user)
+    can :read, :all
+    can :destroy, :admin
+    can :edit, :author
+    can :edit, :admin
+  end
+  
+end
