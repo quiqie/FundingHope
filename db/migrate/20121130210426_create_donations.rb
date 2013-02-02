@@ -1,10 +1,10 @@
 class CreateDonations < ActiveRecord::Migration
   def change
-    create_table :donations do |t|
-      t.donor_id :donor
-      t.cause_id :cause
+    create_table :donations, :force => true do |t|
+      t.integer :donor_id
+      t.integer :cause_id
       t.float :amount
-      t.bool :paid_out
+      t.boolean :paid_out
 
       t.timestamps
     end
