@@ -49454,3 +49454,2661 @@ Migrating to CreateDonations (20121130210426)
   [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
   [1m[35m (0.2ms)[0m  PRAGMA index_info('index_users_on_reset_password_token')
   [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:08:47 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (4.7ms)
+Compiled donations.css  (12ms)  (pid 19810)
+Compiled organizations.css  (1ms)  (pid 19810)
+Compiled scaffolds.css  (25ms)  (pid 19810)
+Compiled jquery.js  (2ms)  (pid 19810)
+Compiled jquery_ujs.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 19810)
+Compiled twitter/bootstrap/bootstrap-affix.js  (1ms)  (pid 19810)
+Compiled twitter/bootstrap.js  (275ms)  (pid 19810)
+Compiled donations.js  (67ms)  (pid 19810)
+Compiled organizations.js  (0ms)  (pid 19810)
+Compiled application.js  (439ms)  (pid 19810)
+Completed 200 OK in 701ms (Views: 699.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /application.css - 200 OK (56ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /donations.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /bootstrap_and_overrides.css - 200 OK (8ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /organizations.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /jquery.js - 200 OK (35ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:48 -0600
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /bootstrap.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /twitter/bootstrap.js - 200 OK (20ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /donations.js - 200 OK (2ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /organizations.js - 200 OK (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /products.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:49 -0600
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:08:56 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2013-02-02 13:08:57 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (147.0ms)
+  Rendered products/new.html.erb within layouts/application (170.9ms)
+Completed 200 OK in 203ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:08:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:01 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-02-02 13:09:04 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 60ms (Views: 36.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:04 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:09:05 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (8.8ms)
+  Rendered products/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:38 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-02-02 13:10:47 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:47 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:48 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:49 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:52 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.1ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:53 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[36mOrganization Load (0.2ms)[0m  [1mSELECT "organizations".* FROM "organizations" [0m
+  Rendered organizations/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:56 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:57 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:58 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.1ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:10:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations/new" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Processing by OrganizationsController#new as HTML
+  Rendered organizations/_form.html.erb (7.3ms)
+  Rendered organizations/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 35ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:00 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/organizations" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Processing by OrganizationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ofToQ6V/Ogr6kaeDy47xgdJzQ7H9PRBY8LPIYsSjPoM=", "organization"=>{"name"=>"Dan Foundation"}, "commit"=>"Create Organization"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (12.3ms)[0m  INSERT INTO "organizations" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 02 Feb 2013 19:11:05 UTC +00:00], ["name", "Dan Foundation"], ["updated_at", Sat, 02 Feb 2013 19:11:05 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/organizations/1
+Completed 302 Found in 19ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/organizations/1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Processing by OrganizationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" WHERE "organizations"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered organizations/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:05 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[36mOrganization Load (0.2ms)[0m  [1mSELECT "organizations".* FROM "organizations" [0m
+  Rendered organizations/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:07 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/organizations/1/edit" for 127.0.0.1 at 2013-02-02 13:11:10 -0600
+Processing by OrganizationsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOrganization Load (0.1ms)[0m  SELECT "organizations".* FROM "organizations" WHERE "organizations"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered organizations/_form.html.erb (4.9ms)
+  Rendered organizations/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:11 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:28 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (10.4ms)
+  Rendered products/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:30 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ofToQ6V/Ogr6kaeDy47xgdJzQ7H9PRBY8LPIYsSjPoM=", "product"=>{"name"=>"First Need", "price"=>"130000", "author"=>"Dan"}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "products" ("author", "created_at", "name", "price", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["author", "Dan"], ["created_at", Sat, 02 Feb 2013 19:11:40 UTC +00:00], ["name", "First Need"], ["price", #<BigDecimal:7fcebc8ddde8,'0.13E6',9(18)>], ["updated_at", Sat, 02 Feb 2013 19:11:40 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/products/1
+Completed 302 Found in 9ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:40 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:43 -0600
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:46 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:11:47 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:01 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:05 -0600
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-02-02 13:12:11 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ofToQ6V/Ogr6kaeDy47xgdJzQ7H9PRBY8LPIYsSjPoM=", "user"=>{"email"=>"DanOpdyke@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'danopdyke@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "remember_created_at", "reset_password_sent_at", "reset_password_token", "role", "sign_in_count", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 02 Feb 2013 19:12:11 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "danopdyke@gmail.com"], ["encrypted_password", "$2a$10$mJJBnAxQ./ne.Zt4XRyCU.LPmQe6tc47oUeqLdTXv9IgOGsAH7GEW"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["role", nil], ["sign_in_count", 0], ["updated_at", Sat, 02 Feb 2013 19:12:11 UTC +00:00], ["username", nil]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-02-02 19:12:11.979767', "current_sign_in_at" = '2013-02-02 19:12:11.979767', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-02-02 19:12:11.981135' WHERE "users"."id" = 1
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 366ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:12 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/users/logout" for 127.0.0.1 at 2013-02-02 13:12:19 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ofToQ6V/Ogr6kaeDy47xgdJzQ7H9PRBY8LPIYsSjPoM="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:12:19 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:19 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:20 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:25 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:26 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:12:26 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" [0m
+  Rendered products/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /bootstrap_and_overrides.css - 200 OK (3ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /organizations.css - 200 OK (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /donations.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /twitter/bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /donations.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /organizations.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:19:06 -0600
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:27 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2013-02-02 13:21:33 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4vWBrFQYKPIiAjixOgY2Cau86di3keDLY8x78F5iPto=", "user"=>{"email"=>"DanOpdyke@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'danopdyke@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = '2013-02-02 19:21:34.283865', "sign_in_count" = 2, "updated_at" = '2013-02-02 19:21:34.284710' WHERE "users"."id" = 1
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 349ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:34 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:21:36 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:37 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:41 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:43 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:21:45 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/donations" for 127.0.0.1 at 2013-02-02 13:21:48 -0600
+
+ActionController::RoutingError (undefined method `has_and_belongs_to' for #<Class:0x007fcebe10ddf0>):
+  app/models/donation.rb:3:in `<class:Donation>'
+  app/models/donation.rb:1:in `<top (required)>'
+  app/controllers/donations_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/donations" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Processing by DonationsController#index as HTML
+  [1m[35mDonation Load (0.1ms)[0m  SELECT "donations".* FROM "donations" 
+  Rendered donations/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:31:39 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/donations/new" for 127.0.0.1 at 2013-02-02 13:31:42 -0600
+Processing by DonationsController#new as HTML
+  Rendered donations/_form.html.erb (56.9ms)
+  Rendered donations/new.html.erb within layouts/application (58.5ms)
+Completed 500 Internal Server Error in 73ms
+
+ActionView::Template::Error (undefined method `cause' for #<Donation:0x007fcebc93cf50>):
+    3: 
+    4:   <div class="form-inputs">
+    5:     <%= f.input :donor %>
+    6:     <%= f.input :cause %>
+    7:     <%= f.input :amount %>
+    8:     <%= f.input :paid_out %>
+    9:   </div>
+  app/views/donations/_form.html.erb:6:in `block in _app_views_donations__form_html_erb__1432497882724618081_70262964149780'
+  app/views/donations/_form.html.erb:1:in `_app_views_donations__form_html_erb__1432497882724618081_70262964149780'
+  app/views/donations/new.html.erb:3:in `_app_views_donations_new_html_erb___3190729126311229454_70262942141800'
+  app/controllers/donations_controller.rb:29:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/schedules" for 127.0.0.1 at 2013-02-02 13:33:41 -0600
+
+ActionController::RoutingError (No route matches [GET] "/schedules"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 36ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:46 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:51 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:51 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:53 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.1ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 35ms (Views: 24.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:57 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:34:58 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:10 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:19 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:22 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:23 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:23 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:24 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:25 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:26 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:35:27 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:28 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/organizations/1" for 127.0.0.1 at 2013-02-02 13:35:29 -0600
+Processing by OrganizationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" WHERE "organizations"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered organizations/show.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:30 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:31 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:35:34 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:04 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:06 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:10 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:13 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:15 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/organizations" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Processing by OrganizationsController#index as HTML
+  [1m[35mOrganization Load (0.2ms)[0m  SELECT "organizations".* FROM "organizations" 
+  Rendered organizations/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:16 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:17 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2013-02-02 13:37:40 -0600
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:41 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" 
+  Rendered products/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/donations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /donations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /organizations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/donations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /donations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/organizations.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /organizations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-02 13:37:43 -0600
+Served asset /application.js - 304 Not Modified (3ms)
