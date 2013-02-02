@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  donor: 
+  cause: 
+  amount: 1.5
+  paid_out: 
+
+two:
+  donor: 
+  cause: 
+  amount: 1.5
+  paid_out: 
