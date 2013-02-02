@@ -1,5 +1,7 @@
 Project::Application.routes.draw do
 
+  resources :causes
+
   resources :donations
 
   resources :organizations

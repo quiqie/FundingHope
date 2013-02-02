@@ -1,8 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
+  <h2><b>Name:</b></h2>
   <%= @organization.name %>
+</p>
+
+<% if @organization.donations.any? %>
+<p>
+  <h3>Donations:</h3>
+  <ol class="donations">
+    <% @organization.donations.each do |donation| %>
+    <li> Donation for <%= donation.product.name %> of $<%= donation.amount %> </li>
+    <% end %>
+  </ol>
+  <% end %>
 </p>
 
 

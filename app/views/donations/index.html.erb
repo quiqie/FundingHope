@@ -13,8 +13,8 @@
 
 <% @donations.each do |donation| %>
   <tr>
-    <td><%= donation.donor %></td>
-    <td><%= donation.cause %></td>
+    <td><%= Organization.find(donation.organization_id).name %></td>
+    <td><%= Product.find(donation.product_id).name %></td>
     <td><%= donation.amount %></td>
     <td><%= donation.paid_out %></td>
     <td><%= link_to 'Show', donation %></td>

@@ -10,6 +10,20 @@
   $<%= @product.price %>
 </p>
 
+<p>
+  <b>Amount Fulfilled</b><br>
+  $<%= @product.amount_fulfilled %>
+</p>
+
+<p>
+  <% if @product.donations.any? %>
+  <h3>Donations</h3>
+  <ol class="donations">
+    <%= render @product.donations %>
+  </ol>
+  <% end %>
+</p>
+
 <div class="form-actions">
   <%= link_to 'Back', products_path, :class => 'btn'  %>
   <% if can? :update, @product %>

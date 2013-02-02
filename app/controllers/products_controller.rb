@@ -16,7 +16,6 @@ class ProductsController < ApplicationController
   # GET /products/1.json
   def show
     @product = Product.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @product }
@@ -54,6 +53,7 @@ class ProductsController < ApplicationController
       end
     end
   end
+
 
   # PUT /products/1
   # PUT /products/1.json

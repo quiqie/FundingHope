@@ -2,8 +2,9 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :donor %>
-    <%= f.input :cause %>
+    <%= f.collection_select(:organization_id, Organization.all, :id, :name, :prompt => "Select Donor") %>
+    <br>
+    <%= f.collection_select(:product_id, Product.all, :id, :name, :prompt => "Select Cause") %>
     <%= f.input :amount %>
     <%= f.input :paid_out %>
   </div>

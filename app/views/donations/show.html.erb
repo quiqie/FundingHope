@@ -2,12 +2,12 @@
 
 <p>
   <b>Donor:</b>
-  <%= @donation.donor %>
+  <%= Organization.find(@donation.organization_id).name %>
 </p>
 
 <p>
   <b>Cause:</b>
-  <%= @donation.cause %>
+  <%= Product.find(@donation.product_id).name %>
 </p>
 
 <p>
