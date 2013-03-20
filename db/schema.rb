@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130202201608) do
+ActiveRecord::Schema.define(:version => 20130320105925) do
 
   create_table "causes", :force => true do |t|
     t.string   "name"
@@ -25,8 +25,10 @@ ActiveRecord::Schema.define(:version => 20130202201608) do
     t.integer  "product_id"
     t.float    "amount"
     t.boolean  "paid_out"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.boolean  "fulfilled",       :default => false
+    t.boolean  "thankyou",        :default => false
   end
 
   create_table "organizations", :force => true do |t|
@@ -38,14 +40,19 @@ ActiveRecord::Schema.define(:version => 20130202201608) do
   create_table "products", :force => true do |t|
     t.string   "name"
     t.decimal  "price"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
     t.string   "author"
+    t.string   "description"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
   end
 
   create_table "users", :force => true do |t|
-    t.string   "email",                  :default => "", :null => false
-    t.string   "encrypted_password",     :default => "", :null => false
+    t.string   "email",                  :default => "",      :null => false
+    t.string   "encrypted_password",     :default => "",      :null => false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -54,10 +61,12 @@ ActiveRecord::Schema.define(:version => 20130202201608) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
     t.string   "username"
     t.string   "role"
+    t.string   "roles",                  :default => "---[]"
+    t.integer  "money",                  :default => 3000
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

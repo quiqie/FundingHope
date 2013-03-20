@@ -5,11 +5,10 @@
     <%= f.collection_select(:organization_id, Organization.all, :id, :name, :prompt => "Select Donor") %>
     <br>
     <%= f.collection_select(:product_id, Product.all, :id, :name, :prompt => "Select Cause") %>
-    <%= f.input :amount %>
-    <%= f.input :paid_out %>
+    <%= f.input :amount %> 
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.button :submit, :class => 'btn btn-primary' %>
   </div>
 <% end %>
